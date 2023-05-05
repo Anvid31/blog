@@ -72,6 +72,17 @@ header {
   font-weight: bold;
 }
 
+.ld{
+  position:absolute;     
+  background-color: #00000088;
+  padding: 20px;
+  width: 300px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 80%;
+  border-radius: 30px;
+}
+
 .txt {
   text-align: justify;
   text-decoration:dashed;
