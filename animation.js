@@ -12,3 +12,6 @@ var elementos = document.querySelectorAll(".elemento");
     } else {       elemento.classList.remove("activo");     }   }); }  
 
 window.addEventListener("scroll", animarScroll);
+
+
+

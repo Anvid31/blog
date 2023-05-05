@@ -15,6 +15,52 @@ div{
   scroll-behavior: smooth;
 }
 
+form{
+  border-radius: 20px;
+  text-align: center ;
+}
+
+#comments-container{
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 80%;
+  padding: 20px;
+  margin: auto;
+  color: #999;
+  background-color: #303030;
+}
+#input{
+  padding: 10px;
+  color: #ccc;
+  background-color: #303030;
+}
+
+#button{
+  display: inline-block;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#button:hover{ 
+  background-color: #3e8e41
+}
+
+#button:active{
+  background-color: #f44336;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* Referencia a inicio */
 
 a{
@@ -67,6 +113,7 @@ header {
 }
 
 
+/* Titulos de cada subtema */
 .li{
   font-size: 18px;
   font-weight: bold;

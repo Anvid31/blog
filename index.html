@@ -36,6 +36,7 @@
     
     <aside class="ld">
       <h3>Redes <br> <li><a href="https://github.com/Anvid31/blog.git"> <i class="fab fa-github">  Github</i> </a> </li> <br> <li><a href="https://anvid31.github.io/blog/"> <i class="fab fa-github">  Blog</i> </a> </li></h3> 
+      <br><h3> <li><a href="#comment-section">Comentarios</a></li></h3>
       
     </aside>
    
@@ -92,28 +93,29 @@
           La principal diferencia entre un blog y una wiki es que un blog se centra en la publicación de contenido por
           una persona o un grupo de personas con un enfoque en la actualidad, mientras que una wiki se centra en la
           colaboración y la creación colectiva de contenido.
-
-          Otras diferencias incluyen:
-
-          - Estructura: Un blog suele tener una estructura lineal, en la que las publicaciones se organizan en orden
+          <br>
+          Otras diferencias incluyen: <br>
+<br>    <lu class="lst"> <p><li class="li">
+          Estructura: Un blog suele tener una estructura lineal, en la que las publicaciones se organizan en orden
           cronológico inverso. Por otro lado, una wiki tiene una estructura más dinámica, en la que los usuarios pueden
-          agregar, editar y enlazar páginas según su propia lógica y estructura.
-
-          - Autoría: En un blog, la autoría del contenido está claramente definida y pertenece a la persona o grupo de
+          agregar, editar y enlazar páginas según su propia lógica y estructura.</p></li>
+<br>    <p> <li class="li">
+          Autoría: En un blog, la autoría del contenido está claramente definida y pertenece a la persona o grupo de
           personas que lo crearon. En una wiki, la autoría del contenido es más fluida y puede cambiar a medida que los
-          usuarios editan y mejoran las páginas.
-
-          - Objetivo: El objetivo principal de un blog es comunicar información, opiniones o noticias de actualidad a un
+          usuarios editan y mejoran las páginas.</p></li>
+<br>    <p> <li class="li">
+          Objetivo: El objetivo principal de un blog es comunicar información, opiniones o noticias de actualidad a un
           público específico. En una wiki, el objetivo es crear y compartir conocimiento colectivo y proporcionar una
-          plataforma para la colaboración y el intercambio de información.
-
-          - Audiencia: Los blogs suelen estar dirigidos a una audiencia específica, mientras que las wikis suelen estar
-          abiertas a un público más amplio y variado.
-
+          plataforma para la colaboración y el intercambio de información.</p></li>
+<br>    <p> <li class="li">
+          Audiencia: Los blogs suelen estar dirigidos a una audiencia específica, mientras que las wikis suelen estar
+          abiertas a un público más amplio y variado.</p></li>
+<br>    <p>
           En resumen, un blog es una herramienta para publicar contenido de manera individual o en equipo, mientras que
           una wiki es una herramienta para colaborar en la creación y edición de contenido en línea. Ambos tienen sus
-          propias características y propósitos únicos que los hacen valiosos en diferentes contextos y situaciones.
-        </p> <br>
+          propias características y propósitos únicos que los hacen valiosos en diferentes contextos y situaciones.</p>
+        </p> 
+      </lu><br>
         <img src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2019/02/what-is-a-blog.png" alt="blog"
           class="img">
       </footer>
@@ -134,17 +136,17 @@
           capacidad de almacenar y acceder a datos y archivos en línea a través de servicios en la nube. En lugar de
           almacenar archivos en un disco duro local o una memoria USB, los usuarios pueden almacenar sus archivos en
           servidores remotos de empresas especializadas en almacenamiento en la nube.
-
+<br>
           Estos servidores se encuentran en centros de datos que pueden estar ubicados en diferentes partes del mundo, y
           su acceso y administración se realiza a través de internet. Los archivos pueden ser accedidos desde cualquier
           dispositivo con conexión a internet, incluyendo computadoras, teléfonos inteligentes, tablets y otros
           dispositivos.
-
+<br>
           El almacenamiento en la nube puede ser utilizado para almacenar todo tipo de archivos, incluyendo documentos,
           fotos, música, videos y más. Algunos de los beneficios del almacenamiento en la nube incluyen la facilidad de
           acceso, la capacidad de compartir archivos con otros usuarios, la seguridad de los datos almacenados y la
           capacidad de hacer copias de seguridad automáticas de los archivos.
-
+<br>
           Los servicios de almacenamiento en la nube pueden ser gratuitos o de pago, y ofrecen diferentes capacidades de
           almacenamiento y niveles de seguridad dependiendo del proveedor. Algunos ejemplos populares de servicios de
           almacenamiento en la nube incluyen Google Drive, Dropbox, Microsoft OneDrive y iCloud de Apple.
@@ -425,12 +427,25 @@
     </article>
   </main>
 
+  <form>
 
-  <footer>
-    <p>Derechos reservados 2023 - Mi Blog</p>
-  </footer>
+    <div id="comment-section">
+      <h3>Comments</h3>
+      <div id="comments-container"></div>
+    </div>
+    
+    <div>
+      <h3>Leave a comment:</h3>
+      <textarea id="input"></textarea><br>
+      <button id="button">Submit</button>
+    </div>
+
+  </form>
+ 
 
 
+
+  <script src="/comments.js"></script>
   <script src="/animation.js"></script>
 
 
